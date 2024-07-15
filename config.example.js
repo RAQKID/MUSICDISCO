@@ -15,7 +15,7 @@ const config = {
 
   // Between 0 and 100
   // 100 is obnoxiously loud and will f*** your ears
-  defaultVolume: 5,
+  defaultVolume: 100,
 
   // The default repeat mode
   // 0 - Off | Don't repeat
@@ -69,12 +69,12 @@ const config = {
   // Bot activity
   presence: {
     // One of online, idle, invisible, dnd
-    status: 'online',
+    status: 'dnd',
     activities: [
       {
-        name: '/play',
+        name: 'Need Me?',
         // One of Playing, Streaming, Listening, Watching
-        type: 'Listening'
+        type: 'Playing'
       }
     ]
   },
@@ -82,10 +82,10 @@ const config = {
   // Permission config
   permissions: {
     // Bot Owner, highest permission level (5)
-    ownerId: '290182686365188096',
+    ownerId: '996784377633706105',
 
     // Bot developers, second to highest permission level (4)
-    developers: [ '' ]
+    developers: [ '996784377633706105' ]
   },
 
   // The Discord server invite to your Support server
